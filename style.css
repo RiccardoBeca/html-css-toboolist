@@ -24,3 +24,38 @@ width: 100%;
   vertical-align: 10px;
 }
 /* HEADER */
+
+
+/* MAIN */
+/* grey background */
+
+#greycontainer{
+  padding-top: 40px;
+  width: 100%;
+  background-color: rgb(246, 248, 249);
+}
+
+/* taskbar */
+
+#taskbar{
+  margin: auto;
+  width: 60%;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.buttons{
+  margin-left: 4%;
+}
+
+/* /taskbar */
+
+#to-do-container{
+  margin: auto;
+  margin-top: 4px;
+  width: 60%;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
