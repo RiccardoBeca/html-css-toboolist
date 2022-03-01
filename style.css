@@ -1,7 +1,7 @@
 /* GENERAL */
 
 *{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,6 +31,7 @@
 
 #greycontainer{
   padding-top: 40px;
+  padding-bottom: 10px;
   width: 100%;
   background-color: rgb(246, 248, 249);
 }
@@ -49,6 +50,26 @@
 .buttons{
   margin-left: 4%;
 }
+/* BUTTONS */
+#task-button{
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(69, 171, 234);
+  border-radius: 5px 5px 5px 5px;
+}
+
+#section-button{
+  border: 1px solid grey;
+  color: grey;
+  padding: 5px;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+/* /BUTTONS */
+
 
 /* /taskbar */
 
@@ -66,7 +87,6 @@
 
 .folder{
   padding: 20px;
-
 }
 
 .folder::before{
@@ -88,6 +108,9 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }
 
 .task-uncompleted::before{
@@ -97,36 +120,37 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }
 
 /* END FOLDERS */
 
 /* COLORED CATEGORIES */
 
-
-
 .editorial{
-color: white;
-padding: 5px;
-font-size: 10px;
-background-color:rgb(69, 171, 234);
-border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(69, 171, 234);
+  border-radius: 10px 10px 10px 10px;
 }
 
 .goals{
   color: white;
-padding: 5px;
-font-size: 10px;
-background-color:rgb(156, 114, 228);
-border-radius: 10px 10px 10px 10px;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(156, 114, 228);
+  border-radius: 10px 10px 10px 10px;
 }
 
 .recruiting{
-color: white;
-padding: 5px;
-font-size: 10px;
-background-color:rgb(100, 192, 169);
-border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(100, 192, 169);
+  border-radius: 10px 10px 10px 10px;
 }
 
 .mobile{
@@ -135,23 +159,28 @@ border-radius: 10px 10px 10px 10px;
   font-size: 10px;
   background-color:rgb(242, 158, 51);
   border-radius: 10px 10px 10px 10px;
-  }
+}
 
-  .website{
-    color: white;
-    padding: 5px;
-    font-size: 10px;
-    background-color:rgb(216, 99, 161);
-    border-radius: 10px 10px 10px 10px;
-  }
+.website{
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(216, 99, 161);
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .sales{
-    color: white;
-    padding: 5px;
-    font-size: 10px;
-    background-color:rgb(176, 201, 38);
-    border-radius: 10px 10px 10px 10px;
-  }
+.sales{
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color:rgb(176, 201, 38);
+  border-radius: 10px 10px 10px 10px;
+}
+/* /COLORED CATEGORIES */
 
-  
-  
+
+/* ACTIVITIES SPACING */
+p{
+  font-size: 14px;
+  padding-top: 10px;
+}
